@@ -1,0 +1,158 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	width: 33.3%;
+	height: 365px;
+	position: relative;
+    float: left;
+    overflow: hidden;
+}
+img{
+	height: 100%;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+header{
+	width: 300px;
+	height: 300px;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	opacity: 0;
+	border: 1px solid black;
+	transition: all 10s;
+	background: #F2F8F0;
+	
+}
+div:nth-child(3){
+	position: absolute;
+	width: 212.1px;
+	height: 212.1px;
+	background-color: #fff;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	transition: all 9s;
+	transform-origin:86% -36%;
+	opacity: 0;
+	border: 1px solid black;
+	transition: all 0.9s;
+	background-color: #C6CEC5;
+}
+div:nth-child(4){
+	position: absolute;
+	width: 149.955px;
+	height: 149.955px;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	transition: all 8s;
+	transform-origin:86% -36%;
+	opacity: 0;
+	border: 1px solid black;
+	background-color: #909590;
+}
+div:nth-child(5){
+	position: absolute;
+	width: 106.018px;
+	height: 106.018px;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	transition: all 7s;
+	transform-origin:86% -36%;
+	opacity: 0;
+	border: 1px solid black;
+	background-color: #7D827C;
+}
+div:nth-child(6){
+	position: absolute;
+	width: 74.958px;
+	height:74.958px;
+	border: 1px solid black;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	transition: all 6s;
+	transform-origin:86% -36%;
+	opacity: 0;
+	background-color: #575E55;
+}
+div:nth-child(7){
+	position: absolute;
+	width: 52.993px;
+	height:52.993px;
+	border: 1px solid black;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	transform-origin:86% -36%;
+	transition: all 5s;
+	opacity: 0;
+	background-color: #464A46;
+}
+div:nth-child(8){
+	position: absolute;
+	width: 37.466px;
+	height:37.466px;
+	border: 1px solid black;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	transition: all 4s;
+	transform-origin:86% -36%;
+	opacity: 0;
+	background-color: red;
+	background-color: #192017;
+}
+div:nth-child(9){
+	position: absolute;
+	width: 26.488px;
+	height:26.488px;
+	border: 1px solid black;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	transition: all 3s;
+	transform-origin:86% -36%;
+	opacity: 0;
+	background-color: red;
+	background-color: #000;
+}
+div:hover header{
+	opacity: 1;
+}
+div:hover div:nth-child(3){
+		transform: rotate(45deg);
+		opacity: 0.9;
+}
+div:hover div:nth-child(4){
+		opacity: 0.8;
+}
+div:hover div:nth-child(5){
+		transform: rotate(45deg);
+		opacity: 0.7;
+}
+div:hover div:nth-child(6){
+	
+		opacity: 0.6;
+}
+div:hover div:nth-child(7){
+		transform: rotate(45deg);
+		opacity: 0.7;
+}
+div:hover div:nth-child(8){
+	
+		opacity: 0.8;
+}
+div:hover div:nth-child(9){
+		transform: rotate(45deg);
+		opacity: 0.9;
+}
